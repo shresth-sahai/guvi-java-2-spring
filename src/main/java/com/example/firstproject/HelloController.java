@@ -13,10 +13,16 @@ public class HelloController {
     PATCH->specific data upgrade
 
     MVC -> MODEL(database/ fields ) VIEW(UI) CONTROLLER(buisness logic)
+    Model -> how it will stored in DB fields info ant the thing stored
+    DB -> moslty JDBC
+    JPA ->
+    https://mvnrepository.com/artifact/com.h2database/h2/2.3.232
      */
 
-    @GetMapping("/hello1")
-    public String sayHello(){
-        return "Hello from Spring MVC";
-    }
+//    @GetMapping("/hello1")
+//    public String sayHello(){
+//        return "Hello from Spring MVC";
+//    }
+
+
 }
